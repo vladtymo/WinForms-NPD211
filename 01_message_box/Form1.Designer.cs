@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             mainBtn = new Button();
+            xBtn = new Button();
             SuspendLayout();
             // 
             // label1
@@ -47,12 +48,21 @@
             mainBtn.Location = new Point(445, 343);
             mainBtn.Name = "mainBtn";
             mainBtn.Size = new Size(223, 88);
-            mainBtn.TabIndex = 1;
+            mainBtn.TabIndex = 0;
             mainBtn.Text = "Push Me";
             mainBtn.UseVisualStyleBackColor = true;
             mainBtn.Click += MainBtn_Click;
             mainBtn.MouseEnter += MainBtn_MouseEnter;
             mainBtn.MouseLeave += MainBtn_MouseLeave;
+            // 
+            // xBtn
+            // 
+            xBtn.Location = new Point(519, 495);
+            xBtn.Name = "xBtn";
+            xBtn.Size = new Size(80, 80);
+            xBtn.TabIndex = 0;
+            xBtn.Text = "[X]";
+            xBtn.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -60,10 +70,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.RosyBrown;
             ClientSize = new Size(1115, 634);
+            Controls.Add(xBtn);
             Controls.Add(mainBtn);
             Controls.Add(label1);
+            KeyPreview = true;
             Name = "Form1";
             Text = "Form1";
+            KeyDown += Form1_KeyDown;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -72,5 +85,6 @@
 
         private Label label1;
         private Button mainBtn;
+        private Button xBtn;
     }
 }

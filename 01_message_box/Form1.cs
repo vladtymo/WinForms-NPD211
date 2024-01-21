@@ -30,5 +30,20 @@ namespace _01_message_box
         {
             mainBtn.BackColor = SystemColors.Control;
         }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.D:
+                    if (xBtn.Location.X < (this.ClientSize.Width - xBtn.ClientSize.Width))
+                        xBtn.Location = new Point(xBtn.Location.X + 10, xBtn.Location.Y);
+                    break;
+                case Keys.A:
+                    if (xBtn.Location.X > 0)
+                        xBtn.Location = new Point(xBtn.Location.X - 10, xBtn.Location.Y);
+                    break;
+            }
+        }
     }
 }
