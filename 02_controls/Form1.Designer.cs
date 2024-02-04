@@ -38,6 +38,8 @@
             addressTb = new TextBox();
             label5 = new Label();
             groupBox1 = new GroupBox();
+            numericUpDown1 = new NumericUpDown();
+            label9 = new Label();
             sauceCb = new CheckBox();
             label7 = new Label();
             largeRb = new RadioButton();
@@ -50,6 +52,7 @@
             cancelBtn = new Button();
             confirmBtn = new Button();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -131,6 +134,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(numericUpDown1);
+            groupBox1.Controls.Add(label9);
             groupBox1.Controls.Add(sauceCb);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(largeRb);
@@ -144,6 +149,24 @@
             groupBox1.TabIndex = 11;
             groupBox1.TabStop = false;
             groupBox1.Text = "Pizza ";
+            // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(546, 310);
+            numericUpDown1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(240, 39);
+            numericUpDown1.TabIndex = 19;
+            numericUpDown1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(434, 313);
+            label9.Name = "label9";
+            label9.Size = new Size(106, 32);
+            label9.TabIndex = 18;
+            label9.Text = "Quantity";
             // 
             // sauceCb
             // 
@@ -283,6 +306,7 @@
             Text = "Form1";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -309,5 +333,7 @@
         private DateTimePicker datePk;
         private Button cancelBtn;
         private Button confirmBtn;
+        private NumericUpDown numericUpDown1;
+        private Label label9;
     }
 }
