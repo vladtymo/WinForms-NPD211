@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_message_box", "01_messag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_controls", "02_controls\02_controls.csproj", "{91C05C59-9EB4-4A9F-B042-180484D4ED36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_combobox", "03_lists\03_combobox.csproj", "{5CC9F113-80F1-4B93-B451-46F2E9D076FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_combobox", "03_lists\03_combobox.csproj", "{5CC9F113-80F1-4B93-B451-46F2E9D076FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_listbox", "04_listbox\04_listbox.csproj", "{381B195A-2860-4DA9-AFA3-ABBC8B10EAEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_listbox", "04_listbox\04_listbox.csproj", "{381B195A-2860-4DA9-AFA3-ABBC8B10EAEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Controls_Indicators", "05_Controls_Indicators\05_Controls_Indicators.csproj", "{F2CEF1F9-E93A-46E0-92D3-67708F699041}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Child_Controls", "06_Child_Controls\06_Child_Controls.csproj", "{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{381B195A-2860-4DA9-AFA3-ABBC8B10EAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{381B195A-2860-4DA9-AFA3-ABBC8B10EAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{381B195A-2860-4DA9-AFA3-ABBC8B10EAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CEF1F9-E93A-46E0-92D3-67708F699041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CEF1F9-E93A-46E0-92D3-67708F699041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CEF1F9-E93A-46E0-92D3-67708F699041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CEF1F9-E93A-46E0-92D3-67708F699041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
