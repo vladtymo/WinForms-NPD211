@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Controls_Indicators", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Child_Controls", "06_Child_Controls\06_Child_Controls.csproj", "{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_forms", "07_forms\07_forms.csproj", "{323AA42C-81FE-44E7-970D-308C16FAB314}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_dialogs", "08_dialogs\08_dialogs.csproj", "{920A4133-8584-4EA8-B49C-C72A67DCD8E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0011A9A5-2586-4DFA-8A75-0D9493CC77F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323AA42C-81FE-44E7-970D-308C16FAB314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323AA42C-81FE-44E7-970D-308C16FAB314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323AA42C-81FE-44E7-970D-308C16FAB314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323AA42C-81FE-44E7-970D-308C16FAB314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920A4133-8584-4EA8-B49C-C72A67DCD8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920A4133-8584-4EA8-B49C-C72A67DCD8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920A4133-8584-4EA8-B49C-C72A67DCD8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920A4133-8584-4EA8-B49C-C72A67DCD8E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
